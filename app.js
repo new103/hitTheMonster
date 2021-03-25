@@ -1,3 +1,4 @@
+
 const randomNumber = (max, min) => {
   return Math.floor(Math.random() * (max - min) + min);
 }
@@ -49,6 +50,7 @@ const app = Vue.createApp({
       }
     }
   },
+
   methods: {
     startNewGame() {
       this.playerHealth = 100;
